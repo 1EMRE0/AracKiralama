@@ -16,5 +16,10 @@ namespace Arac.Domain.Entities
         public byte Seat { get; set; }
         public byte Luggage { get; set; }
         public string Fuel { get; set; }
+        public string Image { get; set; }
+        public List<CarFeature> CarFeatures { get; set; }
+        public List<CarDesc> CarDescs { get; set; }
+        public List<CarPricing> CarPricings { get; set; }
+
     }
 }

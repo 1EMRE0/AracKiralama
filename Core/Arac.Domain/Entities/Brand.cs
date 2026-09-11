@@ -9,5 +9,6 @@ namespace Arac.Domain.Entities
         public int BrandID { get; set; }
         public string BrandName { get; set; }
         public List<Car> Cars { get; set; }
+        
     }
 }
