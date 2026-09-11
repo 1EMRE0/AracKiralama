@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/Core/">
+    <Project Path="Core/Arac.Domain/Arac.Domain.csproj" />
+  </Folder>
+</Solution>
