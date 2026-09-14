@@ -10,7 +10,7 @@ namespace AracKiralama.Persistance.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=emre\\SQLEXPRESS;Database=CarBook;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("Server=emre;Database=CarBook;Trusted_Connection=True;TrustServerCertificate=True;");
         }
 
         public DbSet<About> Abouts { get; set; }

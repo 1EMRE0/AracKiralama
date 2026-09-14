@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\Arac.Domain\Arac.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\AracKiralama.Application\AracKiralama.Application.csproj" />
   </ItemGroup>
 
 </Project>

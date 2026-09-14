@@ -1,8 +1,12 @@
 <Solution>
   <Folder Name="/Core/">
     <Project Path="Core/Arac.Domain/Arac.Domain.csproj" />
+    <Project Path="Core/AracKiralama.Application/AracKiralama.Application.csproj" Id="7200deb0-d0a7-400b-886b-e7a1e1988a0c" />
   </Folder>
   <Folder Name="/Infrastructure/">
     <Project Path="Infrastructure/AracKiralama.Persistance/AracKiralama.Persistance.csproj" Id="9288b1ad-a228-407b-afe5-9846cd923313" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="Presentation/AracKiralama.WebApi/AracKiralama.WebApi.csproj" Id="e98d190d-3407-493c-a703-21d8b57c90c9" />
   </Folder>
 </Solution>
