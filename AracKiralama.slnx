@@ -2,4 +2,7 @@
   <Folder Name="/Core/">
     <Project Path="Core/Arac.Domain/Arac.Domain.csproj" />
   </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="Infrastructure/AracKiralama.Persistance/AracKiralama.Persistance.csproj" Id="9288b1ad-a228-407b-afe5-9846cd923313" />
+  </Folder>
 </Solution>
